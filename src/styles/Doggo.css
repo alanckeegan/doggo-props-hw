@@ -1,0 +1,22 @@
+.doggo-screen {
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+  color: white;
+}
+
+.doggo-screen h1 {
+  padding: 1em;
+}
+
+.doggo-row {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.doggo-row svg {
+  font-size: 10em;
+}
