@@ -3,6 +3,8 @@ import { Container, Row } from 'reactstrap'
 import Dog from '../components/Dog'
 import '../styles/Doggo.css'
 
+const personalityTraits = ['friendly', 'goodboy', 'goofy']
+
 export default class DogScreen extends React.Component {
   render() {
     return (
@@ -10,7 +12,11 @@ export default class DogScreen extends React.Component {
         <Container>
           <h1>Doggo Props</h1>
           <Row className="doggo-row">
-            <Dog />
+            <Dog
+              name="Sir Crumples"
+              color="Brown"
+              age="2 years"
+              personalityTraits = {personalityTraits} />
           </Row>
         </Container>
       </div>
